@@ -1,0 +1,56 @@
+
+body{
+    background-color: #555555;
+    #background-image: url(cow.jpg);
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/* Header */
+header{
+    background-color: darkgray;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+header h1{
+    color: white;
+    font-size: 72;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: blue;
+}
+
+header h2{
+    text-decoration: underline;
+}
+
+/* Post */
+#post{
+	margin-top: 10px;
+    text-align: center;
+    width: 100%;
+	border: 1px solid black;
+}
+#post #post-body{
+    background-color: gray;
+    color: white;
+    padding-bottom: 20px;
+}
+#post #post-title{
+    color: black;
+    background-color: gray;
+    padding-top: 10px;
+	font-size: 24;
+	font-weight: bold;
+}
+#post #post-text{
+	padding-top: 10;
+	padding-bottom: 20px;
+}
+#post #download-buttons{
+	padding: 10px;
+}
+#post #post-img{
+    border: 5px solid black;
+}
